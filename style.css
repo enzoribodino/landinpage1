@@ -33,9 +33,21 @@ header{
 }
 
 .conteiner__link a {
-    text-decoration: none;
     color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-decoration: none;
+    
 }
+.conteiner__link a:hover{
+    text-decoration:underline;
+    
+}
+
+
+
 
 .hero__section{
     display: flex;
